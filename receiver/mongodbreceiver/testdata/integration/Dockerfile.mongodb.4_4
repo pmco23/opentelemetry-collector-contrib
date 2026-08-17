@@ -1,4 +1,4 @@
-FROM mongo:4.4
+FROM mongo:8.3@sha256:44dce4b1688969ff3fdbfc438fd6113f734140ad96e3639ef17ee26a162dfb58
 
 COPY scripts/setup.sh /setup.sh
 RUN chmod +x /setup.sh
